@@ -25,7 +25,7 @@
 
 {.deadCodeElim: on.}
 when defined(windows):
-  const librocksdb = "librocksdb.dll"
+  const librocksdb = "rocksdb.dll"
 elif defined(macosx):
   const librocksdb = "librocksdb.dylib"
 else:

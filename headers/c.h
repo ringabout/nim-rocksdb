@@ -52,7 +52,7 @@
 #  dynlib librocksdb
 #  cdecl
 #  if defined(windows)
-#    define librocksdb "librocksdb.dll"
+#    define librocksdb "rocksdb.dll"
 #  elif defined(macosx)
 #    define librocksdb "librocksdb.dylib"
 #  else
